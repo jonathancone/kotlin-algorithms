@@ -1,11 +1,8 @@
-package Passphrase
+package solution
 
+object PlayPass {
 
-object Passphrase {
-    /**
-     *  Apply a trivial cipher to generate a passphrase.
-     */
-    fun passphrase(s: String, n: Int = 1): String {
+    fun playPass(s: String, n: Int = 1): String {
 
         return s.mapIndexed { index, it ->
             if (it.isLetter()) {
