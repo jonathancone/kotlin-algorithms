@@ -28,4 +28,4 @@ fun binarySearch(a: IntArray, value: Int): Int {
     return midpoint;
 }
 
-println(binarySearch(primes, 150))
+println(binarySearch(primes, 61))
